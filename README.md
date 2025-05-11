@@ -86,6 +86,9 @@ Since we want to evaluate the search algorithms, we need a benchmarking search s
 words in the first 5 games for multiple candidates is shown in the following plot. Maybe you can find a better
 embeddings? Feel free to compare them in the [embedding_experiments.ipynb](embedding_experiments.ipynb) notebook.
 
+For completeness multiple metrics where checked for each embeddings just in case the 
+creators of the game didn't use the defaults for their selected model.
+
 ![Kendalltau benchmark](img/kendall_tau_correlation.png)
 
 The default `ContextoBase.qdrant` vector space has three metadata fields that are useful:
