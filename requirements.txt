@@ -12,3 +12,4 @@ jupyter
 gensim
 scipy
 matplotlib
+tabulate

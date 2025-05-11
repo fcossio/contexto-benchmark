@@ -1,0 +1,20 @@
+{"strategy": "nearest_descent", "game_id": 1,"mean": 119.66666666666667, "std": 64.51011979182456, "attempts": [ 40, 121, 198 ]}
+{"strategy": "nearest_descent", "game_id": 2, "mean": 375.6666666666667, "std": 25.746628689770024, "attempts": [ 348, 410, 369 ]}
+{ "strategy": "nearest_descent", "game_id": 3, "mean": 129.33333333333334, "std": 87.97095480264431, "attempts": [ 241, 121, 26 ]}
+{ "strategy": "nearest_descent", "game_id": 4, "mean": 223.0, "std": 6.48074069840786, "attempts": [ 214, 229, 226 ]}
+{ "strategy": "nearest_descent", "game_id": 5, "mean": 57.666666666666664, "std": 5.734883511361751, "attempts": [ 51, 65, 57 ]}
+{"strategy": "nearest_descent_10_starts", "game_id": 1, "mean": 212.33333333333334, "std": 24.526629518862872, "attempts": [247, 194, 196]}
+{"strategy": "nearest_descent_10_starts", "game_id": 2, "mean": 374.3333333333333, "std": 11.2644968324772, "attempts": [390, 369, 364]}
+{"strategy": "nearest_descent_10_starts", "game_id": 3, "mean": 135.33333333333334, "std": 113.89273706235862, "attempts": [294, 32, 80]}
+{"strategy": "nearest_descent_10_starts", "game_id": 4, "mean": 157.0, "std": 90.6311204829776, "attempts": [136, 277, 58]}
+{"strategy": "nearest_descent_10_starts", "game_id": 5, "mean": 225.33333333333334, "std": 2.0548046676563256, "attempts": [225, 223, 228]}
+{"strategy": "context_search", "game_id": 1, "mean": 81.33333333333333, "std": 17.913371790059205, "attempts": [106, 74, 64]}
+{"strategy": "context_search", "game_id": 2, "mean": 161.33333333333334, "std": 165.7112616034958, "attempts": [60, 29, 395]}
+{"strategy": "context_search", "game_id": 3, "mean": 57.666666666666664, "std": 24.796953217863056, "attempts": [83, 24, 66]}
+{"strategy": "context_search", "game_id": 4, "mean": 30.0, "std": 8.48528137423857, "attempts": [36, 36, 18]}
+{"strategy": "context_search", "game_id": 5, "mean": 84.33333333333333, "std": 10.873004286866728, "attempts": [81, 99, 73]}
+{"strategy": "context_search_stochastic", "game_id": 1, "mean": 162.33333333333334, "std": 66.24365797736583, "attempts": [174, 237, 76]}
+{"strategy": "context_search_stochastic", "game_id": 2, "mean": 278.3333333333333, "std": 175.04539093871878, "attempts": [393, 411, 31]}
+{"strategy": "context_search_stochastic", "game_id": 3, "mean": 257.6666666666667, "std": 30.346151137976115, "attempts": [283, 215, 275]}
+{"strategy": "context_search_stochastic", "game_id": 4, "mean": 196.66666666666666, "std": 81.96069518711731, "attempts": [248, 81, 261]}
+{"strategy": "context_search_stochastic", "game_id": 5, "mean": 132.0, "std": 39.824615503479755, "attempts": [187, 94, 115]}
