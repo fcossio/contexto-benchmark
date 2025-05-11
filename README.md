@@ -20,11 +20,12 @@ To run this benchmark you will need to download the repo and install the depende
 
 ```bash
 # Optionally, create a conda env
-conda create -n contexto python=3.11
+conda create -n contexto python=3.11 -y
 conda activate contexto
 
 # clone repo
 git clone https://github.com/fcossio/contexto-benchmark.git
+cd contexto-benchmark
 
 # install dependencies
 pip install -r requirements.txt
