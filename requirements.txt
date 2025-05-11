@@ -1,0 +1,14 @@
+numpy
+pandas
+typer
+typing-extensions
+qdrant-client
+ray
+loguru
+tqdm
+rich
+requests
+jupyter
+gensim
+scipy
+matplotlib
