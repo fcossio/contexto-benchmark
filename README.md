@@ -118,7 +118,7 @@ The idea is to use Qdrant's context search API to 'siege' the target word by re-
 1. Start by guessing 5 random words.
 1. Find the nearest 100 words to the head (closest word).
 1. Use the head word as positive and the next 5 as negatives to create multiple hyperplanes to guide the search. 
-   An implementation detail is that the Qdrant API returns a lot of 0.0 for all the ones close to the positive. Since we want to get some signal from just a few hyperplanes, we can reverse the hyperplane by  switching the positive and negative arguments and then multiplying the scores by -1.0 and resorting. For details, see [the code](https://github.com/fcossio/contexto-benchmark/blob/65314eba270eda07c309c757c189a22dbe945d7f/glove.py#L251 .
+   An implementation detail is that the Qdrant API returns a lot of 0.0 for all the ones close to the positive. Since we want to get some signal from just a few hyperplanes, we can reverse the hyperplane by  switching the positive and negative arguments and then multiplying the scores by -1.0 and resorting. For details, see the code. https://github.com/fcossio/contexto-benchmark/blob/65314eba270eda07c309c757c189a22dbe945d7f/glove.py#L251
 1. Factor in if the word is a frequent word in english.
 1. Make the guess with the highest conextual score that is close to the head.
 1. When close enough (distance <= 40), switch to greedy search 80% of the guesses, as it helps to converge faster when close to the target.
